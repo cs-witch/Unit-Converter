@@ -1,6 +1,6 @@
 @font-face {
-	src: url(Fonts) ;
-	font-family: Chemistry;
+	font-family: Chemistry , "Golden Ratio";
+  src: url(../fonts);
 }
 
 body {
@@ -41,7 +41,14 @@ body {
 
 .h1 {
 	font-family: chemistry;
-	color: white ;
+	color: white;
 	background-color: pink;
-
+  text-align: center;
 }
+
+.h4 {
+  font-family: "Golden Ratio";
+  color: white
+  
+}
+

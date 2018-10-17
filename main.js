@@ -2,6 +2,9 @@
 // document.querySelector('#output').style.display="none";
 // document.querySelector('#output').style.visibility="hidden";
 
+// Header 
+var h1 = document.querySelector("h1");
+	h1.className = "h1 animated zoomIn";
 // Catch user input
 document.querySelector('#inputValue').addEventListener('input', convert);
 
@@ -50,7 +53,22 @@ function convert(e){
 
 	// // Piunds to ounces
 	// document.querySelector('#oz').innerHTML = input * 16;
+
 }
+
+//Select and assign values for individual divs 
+var divCards = document.getElementsByClassName("card");
+var cardHeader = document.getElementsByClassName("card-header");
+var h4 = document.getElementsByTagName("h4");
+var divNum = document.getElementById("#output");
+
+//Assign class to divCards
+//divCards.className = "color pink";
+
+//Assign class to 
+
+//Assign Class to h4
+//h4.className = "color red";
 
 function convertLbs(num) {
 	console.log('Value is: ' + num);
